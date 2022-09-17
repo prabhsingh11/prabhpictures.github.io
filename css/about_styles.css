@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Combo&family=Qwitcher+Grypen:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+  background-color: #000000;
+  background-image: url("file:///E:/Placemnet%20related/PRABH%20PICTURES/about_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3{
+  padding: 20%;
+  font-family: "Poppins";
+  font-weight: 600;
+  
+}
+.end{
+  text-align: center;
+  color:white
+}
+.front_image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.Recent-works {
+  color: aliceblue;
+  text-align: center;
+}
+.bio {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+th,
+td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+header {
+  /* background-image: url("file:///E:/Placemnet%20related/PRABH%20PICTURES/back.jpg"); */
+  background-repeat: no-repeat;
+}
+.the-hidden-one {
+  color: transparent;
+}
+.container {
+  padding-top: 200px;
+  font-family: "Combo", cursive;
+  background: transparent;
+  text-align: left;
+  font: srfm_neon;
+  position: relative;
+  left: -170px;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    left: 0;
+  }
+}
+.Recent-works-header {
+  padding-top: 29px;
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Edu QLD Beginner", cursive;
+}
+
+.text {
+  text-align: left;
+  background: linear-gradient(90deg, #00b4d8, #fca311);
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 45px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-toggler {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#nav-modi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: top 200px;
+  padding-left: 32%;
+}
+
+.nav-but {
+  position: relative;
+  padding: 10px 30px;
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav-but:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #fca311;
+  border-left: 2px solid #fca311;
+  transition: 0.3s;
+}
+.nav-but:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #fca311;
+  border-right: 2px solid #fca311;
+  transition: 0.3s;
+}
+
+.nav-but:hover {
+  color: #fca311;
+  background: #111;
+  box-shadow: 0 0 50px #fca311;
+  transition-delay: 0.3s;
+}
+
+.nav-but:hover:before {
+  width: 100%;
+  height: 100%;
+}
+.nav-but:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
