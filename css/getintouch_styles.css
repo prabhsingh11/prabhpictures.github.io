@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Combo&family=Qwitcher+Grypen:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400");
-body {
+body{
   background-color: #000000;
-  background-image: url("file:///E:/Placemnet%20related/PRABH%20PICTURES/back2.jpg");
+  background-image: url("back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img1{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

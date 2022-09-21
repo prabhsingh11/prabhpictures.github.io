@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
   background-color: #000000;
-  background-image: url("file:///E:/Placemnet%20related/PRABH%20PICTURES/about_background.jpg");
+  background-image: url("about_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -38,7 +38,6 @@ td {
   padding-right: 40px;
 }
 header {
-  /* background-image: url("file:///E:/Placemnet%20related/PRABH%20PICTURES/back.jpg"); */
   background-repeat: no-repeat;
 }
 .the-hidden-one {

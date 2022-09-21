@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Combo&family=Qwitcher+Grypen:wght@700&display=swap");
 body {
   background-color: #000000;
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
 }
 section{
   position: relative;
@@ -44,7 +46,7 @@ section{
   }
 }
 header {
-  background-image: url("file:///E:/Placemnet%20related/PRABH%20PICTURES/back.jpg");
+  background-image: url("back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
